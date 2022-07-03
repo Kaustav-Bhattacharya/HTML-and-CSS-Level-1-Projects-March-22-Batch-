@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&family=Miniver&family=Playfair+Display+SC:ital@1&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container {
+    background-color: #e2e9f4;
+ height: 95%;
+ box-shadow: 0 30px 40px 40px #e6e9f2;
+
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top_sec h1 {
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+    text-shadow: 2px 2px 6px #1d1e4c;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.top_sec h4 {
+    font-family: 'Gayathri', sans-serif;
+    text-align: end;
+    font-size: 20px;
+}
+
+.img,
+img {
+    margin: 4%;
+    width: 200px;
+    height: 220px;
+    box-shadow: 9px 9px 6px rgb(164, 160, 160);
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.details {
+    display: inline-block;
+}
+
+/* to make a keyframe for t yping effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.typing {
+    font-family: 'Miniver', cursive;
+    overflow: hidden;
+    text-shadow: 1px 1px 5px #1d1e4c;
+    border-right: .16em solid #bed2f1;
+    font-size: 1.5rem;
+    width: 0;
+    white-space: nowrap;
+    animation: typing 7s forwards;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    background: url("/img/Subhash-Chandra-Bose.jpg") no-repeat fixed center;
+    background-size: 100%;
+    color: rgb(5, 5, 5);
+}
+
+.facts {
+    margin-top: 5rem;
+}
+
+.facts h3 {
+    font-family: 'Miniver', cursive;
+    margin-bottom: 2.5rem;
+    font-size: 30px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px #1d1e4c;
+}
+
+.facts ul{
+    margin-left: 1rem;
+}
+.facts li{
+    font-family: 'Gayathri', sans-serif;
+    margin-bottom :1rem; 
+    list-style-type: none;
+    font-size: 20px;
+}
+footer{
+    margin: 3% -7%;
+}
+.foot h3{
+    font-family: 'Splash', cursive;
+    color:black;
+    margin: 0% -20%;
+    padding: 0rem 28rem;
+   text-align: end;
+}
+.foot img{
+height: 60px;
+width: 170px;
+border-radius: 0%;
+margin-top: 1em;
+margin-bottom: 0em;
+margin-right: 3em;
+margin-left: 1em;
+}
